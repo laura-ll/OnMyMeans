@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest package="com.example.onmymeans" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<application android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:supportsRtl="true"
+    android:label="@string/app_name"
+    android:icon="@drawable/ico_setting"
+    android:allowBackup="true"
+    android:name="org.litepal.LitePalApplication">
+
+    <activity android:theme="@style/StartWindow" android:name=".MainActivity"> </activity>
+
+    <activity android:name=".AddItemActivity"/>
+
+    <activity android:name=".AddDescription" android:windowSoftInputMode="adjustResize"> </activity>
+
+
+    -<activity android:name=".login.LoginActivity">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:name=".login.RegisterActivity"/>
+
+</application>
+
+</manifest>
