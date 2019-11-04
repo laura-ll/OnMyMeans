@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
                                 onResume();
                             }
                             else
-                                Toast.makeText(getApplicationContext(),"没有输入新账本名称哦",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(),"没有输入",Toast.LENGTH_SHORT).show();
                         }
                     }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
                         @Override

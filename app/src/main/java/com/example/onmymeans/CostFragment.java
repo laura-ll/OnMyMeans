@@ -38,13 +38,13 @@ public class CostFragment extends Fragment {
     private RelativeLayout itemLayout;
     private ExtensiblePageIndicator extensiblePageIndicator;
 
-    // 总的页数
+
     private int pageCount;
 
-    // 每一页显示的个数
+
     private int pageSize = 18;
 
-    // 当前显示的是第几页
+    // 第几页
     private int curIndex = 0;
 
     private static final String TAG = "CostFragment";
@@ -99,9 +99,7 @@ public class CostFragment extends Fragment {
         return view;
     }
 
-    /**
-     * 初始化数据源
-     */
+
     private void initDatas() {
         mDatas = new ArrayList<IOItem>();
         for (int i = 1; i <= titles.length; i++) {
